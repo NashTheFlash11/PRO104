@@ -58,5 +58,6 @@ neptune = cv2.putText(img,
             0.6,
             (WHITE))
 cv2.imshow("Solar System", img)
+cv2.imwrite("finished_solar_system.jpg", img)
 cv2.waitKey(0)
 
